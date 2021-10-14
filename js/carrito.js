@@ -7,7 +7,7 @@ window.onload = function () {
             nombre: 'Lager Golden',
             precio: 220,
             descripcion: 'La variedad Golden Ale se caracteriza por su espuma blanca y persistente, cuerpo ligero y carácter de malta media.Es simple, ligera y sorprendentemente sabrosa para cualquier paladar.',
-            imagen: url('images/cerveza-rubia.jpg');
+            imagen: 'images/cerveza-rubia.jpg'
         },
         {
             id: 2,
