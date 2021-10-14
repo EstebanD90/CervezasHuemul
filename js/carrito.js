@@ -7,28 +7,28 @@ window.onload = function () {
             nombre: 'Lager Golden',
             precio: 220,
             descripcion: 'La variedad Golden Ale se caracteriza por su espuma blanca y persistente, cuerpo ligero y carácter de malta media.Es simple, ligera y sorprendentemente sabrosa para cualquier paladar.',
-            imagen: '/images/cerveza-rubia.jpg'
+            imagen: 'images/cerveza-rubia.jpg'
         },
         {
             id: 2,
             nombre: 'Irish Red',
             precio: 250,
             descripcion: 'Estilo de cerveza que viene de Irlanda y se caracteriza por su color rojizo. Cerveza fácil de beber, con un nivel de amargor bajo y aromas dulces aportados por un buen balance de maltas caramelo.',
-            imagen: '/images/cerveza-irish-red.jpg'
+            imagen: 'images/cerveza-irish-red.jpg'
         },
         {
             id: 3,
             nombre: 'Cream Stout',
             precio: 260,
             descripcion: 'Es una cerveza negra de origen irlandés. En ella se descubren sabores de chocolate y nueces en el paladar, con un licoroso y placentero post-gusto. Muy corpulenta, de espuma cremosa e increíblemente fácil de tomar debido a que posee menos gas carbónico que las cervezas tradicionales.',
-            imagen: '/images/cerveza-stout.jpg'
+            imagen: 'images/cerveza-stout.jpg'
         },
         {
             id: 4,
             nombre: 'American Pale Ale',
             precio: 230,
             descripcion: 'Una cerveza americana moderna adaptada de las Ales Inglesas pálidas. Una Ale de color dorado pálido casi ligeramente ámbar, refrescante y lupulada, con suficiente malta para hacer la cerveza balanceada y bebible',
-            imagen: '/images/cerveza-APA.jpg'
+            imagen: "/images/cerveza-APA.jpg"
         },
         {
             id: 5,
