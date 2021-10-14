@@ -7,14 +7,14 @@ window.onload = function () {
             nombre: 'Lager Golden',
             precio: 220,
             descripcion: 'La variedad Golden Ale se caracteriza por su espuma blanca y persistente, cuerpo ligero y carácter de malta media.Es simple, ligera y sorprendentemente sabrosa para cualquier paladar.',
-            imagen: 'images/cerveza-rubia.jpg'
+            imagen: '/images/cerveza-rubia.jpg'
         },
         {
             id: 2,
             nombre: 'Irish Red',
             precio: 250,
             descripcion: 'Estilo de cerveza que viene de Irlanda y se caracteriza por su color rojizo. Cerveza fácil de beber, con un nivel de amargor bajo y aromas dulces aportados por un buen balance de maltas caramelo.',
-            imagen: 'images/cerveza-irish-red.jpg'
+            imagen: '/images/cerveza-irish-red.jpg'
         },
         {
             id: 3,
@@ -49,7 +49,7 @@ window.onload = function () {
             nombre: 'Britain Porter',
             precio: 230,
             descripcion: 'Su origen en Londres del siglo XVIII hace que posea un aroma malteado y el amargor del lúpulo, este tipo de cerveza es generalmente fuerte dado que se trata de una cerveza negra con sabores malteados tostados, el sabor característico de las cervezas Porter invade toda la boca con esencia tostada y achocolatada.. ',
-            imagen: 'images/cerveza-porter.jpg'
+            imagen: '/images/cerveza-porter.jpg'
         }
 
     ];
