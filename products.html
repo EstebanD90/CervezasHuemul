@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Productos - Cerveceria Huemul</title>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="icons/logo-huemul2.png">
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between" id="navbar">
+        <a href="index.html"><img src="icons/logo-huemul2.png" alt="logo de mi empresa" style="height:100px"> </a>
+        <!--<a class="navbar-brand" href="#" id="logo">Cerveceria
+            Huemul</a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--
+    <div style="border:solid 1px grey;">
+        <h1
+            style="margin-top:150px;padding:15px 15px;color:coral; text-align:center; text-transform:uppercase;background-color: dodgerblue;">
+            Sitio en
+            Mantenimiento</h1>
+        <p style="text-align:center; font-size:18px;">Estamos trabajando en el nuevo sitio ¡en breve estaremos online!
+        </p>
+    </div>-->
+
+
+
+    <div class="page-content sidebar-position-left sidebar-mobile-bottom">
+        <div class="row">
+            <div class="content main-products-loop col-md-9 col-md-push-3">
+                <div class="row products-loop row-count-4 columns-4 products-liot">
+                    <div
+                        class="first col-lg-4 col-sm-4 col-xs-6 wishlist-disabled product type-product post-6662 status-publish instock product_cat-cerveza product_cat-especiales has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+                        <div id="product__cart" class="col-sm-8 row">
+
+                            <h3 id="h3-carrito">Tu Carrito: </h3>
+
+                            <div class="cart__headers">
+                                <span class="cart-item cart-header cart-column">Producto</span>
+                                <span class="cart-price cart-header cart-column">Precio</span>
+                                <span class="cart-quantity cart-header cart-column">Cantidad</span>
+                            </div>
+
+                            <ul class="cart__items">
+
+                            </ul>
+
+                            <div class="cart__total">
+                                <strong class="cart-total-title">Total</strong>
+                                <span class="cart-total-price">$ 0</span>
+                                <button class="btn btn-danger vaciar-carrito">
+                                    Vaciar Carrito
+                                </button>
+                            </div>
+
+
+                            <button class="btn-cart__save">
+                                Finalizar Compra
+                            </button>
+                        </div>
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                                <a class="product-content-image" data-images="">
+                                    <img width="420" height="475" src="#"
+                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                        alt="CERVEZA LAGER GOLDEN" loading="lazy" title="CERVEZA LAGER GOLDEN"
+                                        srcset="images/cerveza-rubia.jpg 420w, images/cerveza-rubia.jpg 620w, images/cerveza-rubia.jpg 1000w, images/cerveza-rubia.jpg 768w, images/cerveza-rubia.jpg 1359w, images/cerveza-rubia.jpg 642w, images/cerveza-rubia.jpg 1416w"
+                                        sizes="(max-width: 420px) 100vw, 420px"> </a>
+                                <footer class="footer-product">
+                                    <span class="show-quickly" data-prodid="6662">Quick View</span>
+                                </footer>
+                            </div>-->
+
+                            <img class="shop-item-image" src="images/cerveza-rubia.jpg" style="max-width: 90%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/clasicas/" rel="tag">Clásicas</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>LAGER GOLDEN
+                                    </p>
+                                </div>
+
+                                <span class="shop-item-price"><bdi>$ <span>220</span></bdi></span>
+
+                                <div class="product-description">
+                                    La variedad Golden Ale se caracteriza por su espuma blanca y persistente,
+                                    cuerpo ligero y carácter de malta media. Es simple, ligera y sorprendentemente
+                                    sabrosa para cualquier paladar </div>
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                    class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                    data-product_id="6662" data-product_sku=""
+                                    aria-label="Añade “CERVEZA LAGER GOLDEN” a tu carrito" rel="nofollow"
+                                    data-style="shrink" data-horizontal=""><span class="content"><i
+                                            class="ico-smallpacket"></i>Añadir al carrito</span></a>-->
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                            <a class="product-content-image" data-images="">
+                                <img width="420" height="475" src="#"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                    alt="CERVEZA IRISH RED" loading="lazy" title="CERVEZA IRISH RED"
+                                    srcset="images/cerveza-irish-red.jpg 420w, images/cerveza-irish-red.jpg  620w, images/cerveza-irish-red.jpg  1000w, images/cerveza-irish-red.jpg  768w, images/cerveza-irish-red.jpg  1359w, images/cerveza-irish-red.jpg  642w, images/cerveza-irish-red.jpg  1416w"
+                                    sizes="(max-width: 420px) 100vw, 420px"> </a>
+                            <footer class="footer-product">
+                                <span class="show-quickly" data-prodid="6662">Quick View</span>
+                            </footer>
+                            </div>-->
+
+                            <img class="shop-item-image" src="images/cerveza-irish-red.jpg" style="max-width: 200%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/especiales/" rel="tag">Especiales</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>IRISH RED
+                                    </p>
+                                </div>
+
+
+                                <span class="shop-item-price"><bdi>$ <span>250</span></bdi></span>
+
+                                <div class="product-description">
+                                    Estilo de cerveza que viene de Irlanda y se caracteriza por su color rojizo. Cerveza
+                                    fácil de beber, con un nivel de amargor bajo y aromas dulces aportados por
+                                    un buen balance de maltas caramelo. </div>
+
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                data-product_id="6662" data-product_sku=""
+                                aria-label="Añade “CERVEZA IRISH RED” a tu carrito" rel="nofollow" data-style="shrink"
+                                data-horizontal=""><span class="content"><i class="ico-smallpacket"></i>Añadir al
+                                    carrito</span></a>-->
+
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                            <a class="product-content-image" data-images="">
+                                <img width="420" height="475" src="#"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                    alt="CERVEZA CREAM STOUT" loading="lazy" title="CERVEZA CREAM STOUT"
+                                    srcset="images/cerveza-stout.jpg 420w, images/cerveza-stout.jpg 620w, images/cerveza-stout.jpg 1000w, images/cerveza-stout.jpg 768w, images/cerveza-stout.jpg 1359w, images/cerveza-stout.jpg 642w, images/cerveza-stout.jpg 1416w"
+                                    sizes="(max-width: 420px) 100vw, 420px"> </a>
+                            <footer class="footer-product">
+                                <span class="show-quickly" data-prodid="6662">Quick View</span>
+                            </footer>
+                            </div>-->
+                            <img class="shop-item-image" src="images/cerveza-stout.jpg" style="max-width: 60%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/especiales/" rel="tag">Especiales</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>CREAM STOUT
+                                    </p>
+                                </div>
+
+                                <span class="shop-item-price"><bdi>$ <span>260</span></bdi></span>
+
+                                <div class="product-description">
+                                    Es una cerveza negra de origen irlandés. En ella se descubren sabores de chocolate y
+                                    nueces en el paladar, con un licoroso y placentero post-gusto. Muy corpulenta, de
+                                    espuma cremosa e increíblemente fácil de tomar debido a que posee menos gas
+                                    carbónico que las cervezas tradicionales. </div>
+
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                data-product_id="6662" data-product_sku=""
+                                aria-label="Añade “CERVEZA CREAM STOUT” a tu carrito" rel="nofollow" data-style="shrink"
+                                data-horizontal=""><span class="content"><i class="ico-smallpacket"></i>Añadir al
+                                    carrito</span></a>-->
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                            <a class="product-content-image" data-images="">
+                                <img width="420" height="475" src="#"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                    alt="CERVEZA CREAM STOUT" loading="lazy" title="CERVEZA CREAM STOUT"
+                                    srcset="images/cerveza-stout.jpg 420w, images/cerveza-stout.jpg 620w, images/cerveza-stout.jpg 1000w, images/cerveza-stout.jpg 768w, images/cerveza-stout.jpg 1359w, images/cerveza-stout.jpg 642w, images/cerveza-stout.jpg 1416w"
+                                    sizes="(max-width: 420px) 100vw, 420px"> </a>
+                            <footer class="footer-product">
+                                <span class="show-quickly" data-prodid="6662">Quick View</span>
+                            </footer>
+                            </div>-->
+                            <img class="shop-item-image" src="images/cerveza-APA.jpg" style="max-width: 60%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/especiales/" rel="tag">Especiales</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>AMERICAN PALE ALE
+                                    </p>
+                                </div>
+
+                                <span class="shop-item-price"><bdi>$ <span>230</span></bdi></span>
+
+                                <div class="product-description">
+                                    Es una cerveza negra de origen irlandés. En ella se descubren sabores de chocolate y
+                                    nueces en el paladar, con un licoroso y placentero post-gusto. Muy corpulenta, de
+                                    espuma cremosa e increíblemente fácil de tomar debido a que posee menos gas
+                                    carbónico que las cervezas tradicionales. </div>
+
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                data-product_id="6662" data-product_sku=""
+                                aria-label="Añade “CERVEZA CREAM STOUT” a tu carrito" rel="nofollow" data-style="shrink"
+                                data-horizontal=""><span class="content"><i class="ico-smallpacket"></i>Añadir al
+                                    carrito</span></a>-->
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                            <a class="product-content-image" data-images="">
+                                <img width="420" height="475" src="#"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                    alt="CERVEZA CREAM STOUT" loading="lazy" title="CERVEZA CREAM STOUT"
+                                    srcset="images/cerveza-stout.jpg 420w, images/cerveza-stout.jpg 620w, images/cerveza-stout.jpg 1000w, images/cerveza-stout.jpg 768w, images/cerveza-stout.jpg 1359w, images/cerveza-stout.jpg 642w, images/cerveza-stout.jpg 1416w"
+                                    sizes="(max-width: 420px) 100vw, 420px"> </a>
+                            <footer class="footer-product">
+                                <span class="show-quickly" data-prodid="6662">Quick View</span>
+                            </footer>
+                            </div>-->
+                            <img class="shop-item-image" src="images/cerveza-roja.jpg" style="max-width: 60%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/especiales/" rel="tag">Especiales</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>SCOTTISH RED
+                                    </p>
+                                </div>
+
+                                <span class="shop-item-price"><bdi>$ <span>240</span></bdi></span>
+
+                                <div class="product-description">
+                                    Es una cerveza negra de origen irlandés. En ella se descubren sabores de chocolate y
+                                    nueces en el paladar, con un licoroso y placentero post-gusto. Muy corpulenta, de
+                                    espuma cremosa e increíblemente fácil de tomar debido a que posee menos gas
+                                    carbónico que las cervezas tradicionales. </div>
+
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                data-product_id="6662" data-product_sku=""
+                                aria-label="Añade “CERVEZA CREAM STOUT” a tu carrito" rel="nofollow" data-style="shrink"
+                                data-horizontal=""><span class="content"><i class="ico-smallpacket"></i>Añadir al
+                                    carrito</span></a>-->
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                            <a class="product-content-image" data-images="">
+                                <img width="420" height="475" src="#"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                    alt="CERVEZA CREAM STOUT" loading="lazy" title="CERVEZA CREAM STOUT"
+                                    srcset="images/cerveza-stout.jpg 420w, images/cerveza-stout.jpg 620w, images/cerveza-stout.jpg 1000w, images/cerveza-stout.jpg 768w, images/cerveza-stout.jpg 1359w, images/cerveza-stout.jpg 642w, images/cerveza-stout.jpg 1416w"
+                                    sizes="(max-width: 420px) 100vw, 420px"> </a>
+                            <footer class="footer-product">
+                                <span class="show-quickly" data-prodid="6662">Quick View</span>
+                            </footer>
+                            </div>-->
+                            <img class="shop-item-image" src="images/cerveza-IPA2.jpg" style="max-width: 60%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/especiales/" rel="tag">Especiales</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>INDIAN PALE ALE
+                                    </p>
+                                </div>
+
+                                <span class="shop-item-price"><bdi>$ <span>250</span></bdi></span>
+
+                                <div class="product-description">
+                                    Cerveza de color cobrizo con alto contenido de lúpulos y malta, lo que permite que
+                                    sea una cerveza intensa, amarga y es que generalmente se trata de una birra con
+                                    mucho cuerpo y matices muy afrutados, seguro la conocés porque es una de las
+                                    cervezas más trendy del momento </div>
+
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                data-product_id="6662" data-product_sku=""
+                                aria-label="Añade “CERVEZA CREAM STOUT” a tu carrito" rel="nofollow" data-style="shrink"
+                                data-horizontal=""><span class="content"><i class="ico-smallpacket"></i>Añadir al
+                                    carrito</span></a>-->
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="content-product">
+                            <!--
+                            <div class="product-image-wrapper hover-effect-slider">
+                            <a class="product-content-image" data-images="">
+                                <img width="420" height="475" src="#"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                                    alt="CERVEZA CREAM STOUT" loading="lazy" title="CERVEZA CREAM STOUT"
+                                    srcset="images/cerveza-stout.jpg 420w, images/cerveza-stout.jpg 620w, images/cerveza-stout.jpg 1000w, images/cerveza-stout.jpg 768w, images/cerveza-stout.jpg 1359w, images/cerveza-stout.jpg 642w, images/cerveza-stout.jpg 1416w"
+                                    sizes="(max-width: 420px) 100vw, 420px"> </a>
+                            <footer class="footer-product">
+                                <span class="show-quickly" data-prodid="6662">Quick View</span>
+                            </footer>
+                            </div>-->
+                            <img class="shop-item-image" src="images/cerveza-porter.jpg" style="max-width: 60%">
+
+                            <div class="text-center product-details">
+                                <div class="products-page-cats">
+                                    <a href="categoria-producto/cerveza/" rel="tag">Cerveza</a>, <a
+                                        href="categoria-producto/cerveza/especiales/" rel="tag">Especiales</a>
+                                </div>
+
+                                <div class="product-title">
+                                    <p>BRITAIN PORTER
+                                    </p>
+                                </div>
+
+                                <span class="shop-item-price"><bdi>$ <span>260</span></bdi></span>
+
+                                <div class="product-description">
+                                    Su origen en Londres del siglo XVIII hace que posea un aroma malteado y el amargor
+                                    del
+                                    lúpulo, este tipo de cerveza es generalmente fuerte dado que se trata de una cerveza
+                                    negra con sabores malteados tostados, el sabor característico de las cervezas Porter
+                                    invade toda la boca con esencia tostada y achocolatada.. </div>
+
+
+                                <!--
+                                <a href="?add-to-cart=6662" data-quantity="1" id="add__button"
+                                class="add_to_cart_button btn-cart border-grey progress-button etheme_add_to_cart_button ajax_add_to_cart  product_type_simple"
+                                data-product_id="6662" data-product_sku=""
+                                aria-label="Añade “CERVEZA CREAM STOUT” a tu carrito" rel="nofollow" data-style="shrink"
+                                data-horizontal=""><span class="content"><i class="ico-smallpacket"></i>Añadir al
+                                    carrito</span></a>-->
+
+                                <button class="add__button" class="btn success">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="contact__space">
+
+
+        </div>
+
+
+        <footer>
+            <footer class="footer-distributed">
+                <div class="footer-left">
+                    <a href="index.html"><img src="icons/logo-huemul2.png" alt="logo de mi empresa"> </a>
+                    <ul class="footer__contact_info">
+                        <li>
+                            <p>Desarrollado por: Esteban Diaz - 2021. <strong> Cerveza Huemul. &copy; </strong></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-center">
+                    <h3 class="footer__section__title">Acerca Nuestro</h3>
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Dirección: Avenida xxxxxx 0000 C.P.: 0000</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>Teléfono: 1111-1111</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p>Email: contacto@cerveceriahuemul.com</p>
+                    </div>
+                    <h3 class="footer__section__title">Nuestras Redes</h3>
+                    <ul class="footer__social__media">
+                        <div class="footer-icons">
+                            <a href="https://es-la.facebook.com/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/?lang=es"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/?hl=es"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/home/?originalSubdomain=ar"><i
+                                    class="fa fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer-right">
+                    <p class="footer-company-about"></p>
+                    <h3 class="footer__section__title"> Envianos un mensaje rápido!</h3>
+                    <form class="footer__contact__form">
+                        <div class="footer__form">
+                            <label for="name" class="form__label">Nombre</label>
+                            <input type="name" class="form__control" id="name" aria-required="true" aria-invalid="false"
+                                placeholder="Nombre">
+                        </div>
+                        <div class="footer__form">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" class="form__control" id="email" aria-required="true"
+                                aria-invalid="false" placeholder="Email">
+                        </div>
+                        <div class="footer__form">
+                            <label for="message" class="form__label">Mensaje</label>
+                            <textarea class="form__control" id="message" rows="5" aria-required="true"
+                                aria-invalid="false" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="footer__form">
+                            <input type="submit" id="btn__submit" class="btn__send-message" value="Enviar Mensaje">
+                        </div>
+                    </form>
+
+                </div>
+            </footer>
+        </footer>
+
+        <!--<script src="js/carrito_2.js"> </script>-->
+
+        <!--<script src="js/carrito.js"> </script>-->
+
+        <!--<script src="js/carrito_3.js"> </script>-->
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
