@@ -28,28 +28,28 @@ window.onload = function () {
             nombre: 'American Pale Ale',
             precio: 230,
             descripcion: 'Una cerveza americana moderna adaptada de las Ales Inglesas pálidas. Una Ale de color dorado pálido casi ligeramente ámbar, refrescante y lupulada, con suficiente malta para hacer la cerveza balanceada y bebible',
-            imagen: "/images/cerveza-APA.jpg"
+            imagen: 'images/cerveza-APA.jpg'
         },
         {
             id: 5,
             nombre: 'Scottish Red',
             precio: 230,
             descripcion: 'Es una cerveza negra de origen irlandés. En ella se descubren sabores de chocolate y nueces en el paladar, con un licoroso y placentero post-gusto. Muy corpulenta, de espuma cremosa e increíblemente fácil de tomar debido a que posee menos gas carbónico que las cervezas tradicionales.',
-            imagen: '/images/cerveza-roja.jpg'
+            imagen: 'images/cerveza-roja.jpg'
         },
         {
             id: 6,
             nombre: 'Indian Pale Ale',
             precio: 230,
             descripcion: 'Cerveza de color cobrizo con alto contenido de lúpulos y malta, lo que permite que sea una cerveza intensa, amarga y es que generalmente se trata de una birra con mucho cuerpo y matices muy afrutados, seguro la conocés porque es una de las cervezas más trendy del momento.',
-            imagen: '/images/cerveza-IPA2.jpg'
+            imagen: 'images/cerveza-IPA2.jpg'
         },
         {
             id: 7,
             nombre: 'Britain Porter',
             precio: 230,
             descripcion: 'Su origen en Londres del siglo XVIII hace que posea un aroma malteado y el amargor del lúpulo, este tipo de cerveza es generalmente fuerte dado que se trata de una cerveza negra con sabores malteados tostados, el sabor característico de las cervezas Porter invade toda la boca con esencia tostada y achocolatada.. ',
-            imagen: '/images/cerveza-porter.jpg'
+            imagen: 'images/cerveza-porter.jpg'
         }
 
     ];
